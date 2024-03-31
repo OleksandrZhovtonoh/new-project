@@ -12,7 +12,8 @@ In root directory type:
 ```git remote add origin <your repo link> ```
 
 3. Create new branch named as "development" (you will be automatically checked out in the "development" branch)
-```git branch -b development```
+```git checkout -b main```
+```git checkout -b development```
 
 4. Create or change anything in the directory.
 
@@ -27,4 +28,4 @@ In root directory type:
 ```git merge development```
 
 7. Push your changes to GitHub.com
-git push origin
+```git push origin```
